@@ -195,7 +195,53 @@ body {
     background-color: #ecf0f1;
 }
 
+/*----- DESCRIPTION BOX -----*/
 .description-box {
+    float: left;
     width: 540px;
+    height: 400px;
     background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+.photo {
+    position: relative;
+    height: 200px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0.20)), url("../img/lake.jpeg");
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.magnifier-icon {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    padding: 10px;
+    color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+}
+
+.magnifier-icon:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.description {
+    padding: 20px 40px;
+    color: #888;
+    line-height: 23px;
+}
+
+.description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.description p a {
+    text-decoration: none;
+    color: #0bbace;
 }
