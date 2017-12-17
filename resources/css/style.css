@@ -21,6 +21,7 @@ body {
     background-color: #ecf0f1;
     list-style-type: none;
     border-radius: 5px;
+    font-weight: 300;
 }
 
 .menu li {
@@ -39,7 +40,7 @@ body {
     padding: 20px 30px;
     display: block;
     text-decoration: none;
-    color: #666;
+    color: #888;
     border-bottom: 2px solid #ecf0f1;
 }
 
@@ -70,7 +71,7 @@ body {
 
 .search-form input {
     padding: 5px 0;
-    color: #666;
+    color: #888;
     outline: none;
 }
 
@@ -81,5 +82,73 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    color: #666;
+    color: #888;
+}
+
+/*----- MAIN -----*/
+
+.main-content {
+    margin-top: 30px;
+}
+
+.small-box {
+    float: left;
+    width: 270px;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+/*-----PROFILE BOX-----*/
+.profile-box {
+    background-color: #ecf0f1;
+    color: #888;
+    text-align: center;
+}
+
+.profile-box img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.profile-box h2,
+.profile-box h4 {
+    font-family: Lato;
+    font-weight: 300;
+    margin-bottom: 10px; 
+}
+
+.icons {
+    list-style-type: none;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.icons li {
+    display: inline-block;
+}
+
+.icons li a {
+    padding: 20px 25px;
+    color: #888;
+    font-size: 30px;
+}
+
+.icons li a:hover {
+    color: #0bbace;
+}
+
+/*------ PHOTO BOX-----*/
+.photo-box {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.30)),url("../img/pexels-photo.jpg");
+    background-size: cover;
+}
+
+.description-box {
+    width: 540px;
+    background-color: #ecf0f1;
 }
