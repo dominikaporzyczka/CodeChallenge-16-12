@@ -232,6 +232,7 @@ body {
     padding: 20px 40px;
     color: #888;
     line-height: 23px;
+    font-weight: 300;
 }
 
 .description h1 {
@@ -244,4 +245,42 @@ body {
 .description p a {
     text-decoration: none;
     color: #0bbace;
+}
+
+/*----- STEPS BOX -----*/
+.steps-box {
+    float: left;
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 25px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    color: #888;
+    font-family: Lato;
+    font-weight: 300;
+    text-align: left;
+}
+
+.steps {
+    display: inline-block;
+    width: 360px;
+    padding: 0 20px;
+    margin-top: 38px;
+}
+
+.steps h2 {
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.circle {
+    float: left;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: #0bbace;
+    border-radius: 50%;
+    color: #ecf0f1;
+    font-size: 30px;
 }
