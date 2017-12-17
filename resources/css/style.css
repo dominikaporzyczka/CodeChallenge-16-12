@@ -144,8 +144,55 @@ body {
 
 /*------ PHOTO BOX-----*/
 .photo-box {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.30), rgba(255, 255, 255, 0.30)),url("../img/pexels-photo.jpg");
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0.20)),url("../img/pexels-photo.jpeg");
     background-size: cover;
+    font-family: Lato;
+    color: #ecf0f1;
+}
+
+.photo-box h3,
+.btn a {
+    font-family: Lato;
+    font-weight: 400;
+    color: #ecf0f1;
+}
+
+.photo-box h3 {
+    margin: 20px 15px;
+    font-size: 15px;
+}
+
+.like {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.btn {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    
+}
+
+.btn a {
+    padding: 10px 50px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.60);
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    color: #888;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.btn a:hover {
+    background-color: #ecf0f1;
 }
 
 .description-box {
